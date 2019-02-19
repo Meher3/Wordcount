@@ -7,7 +7,7 @@
 # Removing all punctuations and making sure, everything in lower case
 def remove_punctuation():
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
-		new_line = ""
+new_line = ""
 		for char in line:
         if char not in punctuations:
             new_line = new_line + char
@@ -19,7 +19,7 @@ def remove_punctuation():
 
 # counting the repeated words and storing them into a dictionary
 def words_count():
-     dict = {}
+    dict = {}
 		words = remove_punctuation().split(' ')
 		#print(words)
 		for word in words:
