@@ -7,7 +7,7 @@
 # Removing all punctuations and making sure, everything in lower case
 def remove_punctuation():
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
-new_line = ""
+    new_line = ""
 		for char in line:
         if char not in punctuations:
             new_line = new_line + char
